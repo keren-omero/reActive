@@ -1,0 +1,45 @@
+.Sidebar {
+  height: 100vh;
+  width: 45vh;
+  background-color:teal;
+}
+
+.SidebarList {
+  height:  100%;
+  width:  100%;
+  background-color:teal;
+}
+
+.SidebarList .section {
+  height:  60px;
+  width:  400px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  color: white;
+  font-size: 22px;
+  justify-content: center;
+  align-items:center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section #icon{
+    flex:15%;
+    display: grid;
+    place-items: center;
+}
+.section #title{
+    flex:90%;
+}
+
+
+/*
+.SidebarList .section:haver {
+    curser: pointer;
+    background-color: blue;
+}
+*/
